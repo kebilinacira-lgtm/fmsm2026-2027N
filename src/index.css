@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+/* =========================================================
+   Custom Print Styles & Media Queries (PDF Export Support)
+   جامعة قاصدي مرباح ورقلة - كلية الرياضيات وعلوم المادة
+   ========================================================= */
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 10mm 12mm 10mm;
+  }
+
+  /* Reset body and remove screen-only backgrounds */
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Hide screen navigation, sticky headers, toasts, floating buttons, footers */
+  header,
+  footer,
+  nav,
+  .no-print,
+  .print-hidden,
+  [role="dialog"] > div > .print\\:hidden {
+    display: none !important;
+  }
+
+  /* Allow print containers to take full width and avoid truncation */
+  .printable-document,
+  .print-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+
+  /* Ensure tables render cleanly with sharp borders and no clipping */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    page-break-inside: auto !important;
+  }
+
+  tr {
+    page-break-inside: avoid !important;
+    page-break-after: auto !important;
+  }
+
+  th, td {
+    border: 1px solid #cbd5e1 !important;
+    padding: 6px 8px !important;
+  }
+
+  th {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+    font-weight: 700 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Prevent page breaks inside critical elements */
+  .avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Clean up links for print */
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}
+
+/* =========================================================
+   Continuous Moving News Ticker (شريط الإعلانات المتحرك)
+   ========================================================= */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes marquee-scroll-ltr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 35s linear infinite;
+  will-change: transform;
+}
+
+.ticker-marquee:hover {
+  animation-play-state: paused;
+}
+

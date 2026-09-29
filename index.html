@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KL6S2MPW');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Safeguard against environments where window.fetch has only a getter
+      (function () {
+        try {
+          var rawFetch = window.fetch;
+          var _fetch = rawFetch ? function () {
+            return rawFetch.apply(window, arguments);
+          } : undefined;
+
+          Object.defineProperty(window, 'fetch', {
+            get: function () {
+              return _fetch;
+            },
+            set: function (fn) {
+              _fetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          // Ignore
+        }
+      })();
+    </script>
+    <link rel="icon" type="image/png" href="/logo_univ_ouargla.png" />
+    <title>منصة كلية الرياضيات وعلوم المادة - جامعة قاصدي مرباح ورقلة</title>
+    <meta name="description" content="البوابة الرقمية الشاملة لأساتذة وطلبة كلية الرياضيات وعلوم المادة (FMSM) بجامعة قاصدي مرباح ورقلة - أقسام الفيزياء، الكيمياء، الرياضيات وجذع مشترك علوم المادة." />
+    <meta property="og:title" content="منصة كلية الرياضيات وعلوم المادة - جامعة قاصدي مرباح ورقلة" />
+    <meta property="og:description" content="البوابة الرقمية الشاملة لأساتذة وطلبة كلية الرياضيات وعلوم المادة (FMSM) بجامعة قاصدي مرباح ورقلة." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-['Cairo',sans-serif] bg-slate-50 text-slate-900 antialiased selection:bg-teal-600 selection:text-white">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL6S2MPW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

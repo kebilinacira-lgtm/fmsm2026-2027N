@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fmsm-live-01",
+    "title": "انطلاق عملية التسجيلات وإعادة التسجيل لطلبة التدرج (ليسانس وماستر) 2026/2025",
+    "departmentId": "all",
+    "targetAudience": "students",
+    "category": "pedagogical",
+    "date": "2026-09-22",
+    "originalPostDate": "22 سبتمبر 2026",
+    "isPinned": true,
+    "author": "موقع الكلية الرسمي (fmsm.univ-ouargla.dz)",
+    "content": "تنهي نيابة عمادة كلية الرياضيات وعلوم المادة المكلفة بالدراسات والمسائل المرتبطة بالطلبة إلى علم كافة طلبة طوري الليسانس والماستر في جميع الأقسام (الفيزياء، الكيمياء، الرياضيات، وجذع مشترك علوم المادة)، عن استمرار عملية تأكيد التسجيلات واستخراج بطاقات الطالب الرقمية عبر بوابة Progres وتقديم الملفات الإدارية على مستوى مصالح التدريس.",
+    "attachmentName": "اعلان_التسجيلات_الجامعية_FMSM.pdf",
+    "sourceUrl": "https://fmsm.univ-ouargla.dz/ar/?option=com_content&view=article&id=1089",
+    "isFromOfficialWebsite": true
+  },
+  {
+    "id": "fmsm-live-02",
+    "title": "برنامج الامتحانات الاستدراكية وجداول الحراسة للأقسام الأربعة",
+    "departmentId": "all",
+    "targetAudience": "all",
+    "category": "exams",
+    "date": "2026-09-20",
+    "originalPostDate": "20 سبتمبر 2026",
+    "isPinned": true,
+    "author": "موقع الكلية الرسمي (fmsm.univ-ouargla.dz)",
+    "content": "تعلن إدارة كلية الرياضيات وعلوم المادة عن نشر الجداول النهائية للامتحانات الاستدراكية لجميع المستويات والتخصصات. يرجى من جميع الأساتذة الكرام والطلبة الاطلاع على توقيت القاعات والمدرجات والالتزام الصارم بالإجراءات التنظيمية والبروتوكول المعمول به.",
+    "attachmentName": "جدول_الامتحانات_الاستدراكية_المعتمد.pdf",
+    "sourceUrl": "https://fmsm.univ-ouargla.dz/ar/?option=com_content&view=featured",
+    "isFromOfficialWebsite": true
+  },
+  {
+    "id": "fmsm-live-03",
+    "title": "قسم الكيمياء: إيداع مواضيع مذكرات التخرج ماستر 2 (PFE) وتوزيع المؤطرين",
+    "departmentId": "chemistry",
+    "targetAudience": "students",
+    "category": "pedagogical",
+    "date": "2026-09-18",
+    "originalPostDate": "18 سبتمبر 2026",
+    "isPinned": false,
+    "author": "رئاسة قسم الكيمياء (الموقع الرسمي)",
+    "content": "ينهي رئيس قسم الكيمياء إلى علم طلبة السنة الثانية ماستر بجميع التخصصات (كيمياء المواد، الكيمياء العضوية، والكيمياء التحليلية) بضرورة إيداع استمارات اقتراح مواضيع مذكرات التخرج وموافقة الأستاذ المشرف قبل الآجال المحددة عبر المنصة الرسمية أو مباشرة بمقر القسم.",
+    "attachmentName": "استمارة_مشروع_تخرج_ماستر_كيمياء.pdf",
+    "sourceUrl": "https://fmsm.univ-ouargla.dz/ar/?option=com_content&view=category&id=88",
+    "isFromOfficialWebsite": true
+  },
+  {
+    "id": "fmsm-live-04",
+    "title": "قسم الفيزياء: توزيع أفواج الأعمال التطبيقية والمخبرية (TP) - السداسي الأول",
+    "departmentId": "physics",
+    "targetAudience": "students",
+    "category": "pedagogical",
+    "date": "2026-09-16",
+    "originalPostDate": "16 سبتمبر 2026",
+    "isPinned": false,
+    "author": "رئاسة قسم الفيزياء (الموقع الرسمي)",
+    "content": "تم الإعلان عن قوائم الأفواج وتوزيع القاعات والمخابر لمقاييس الأعمال التطبيقية (TP Mécanique, TP Électricité, TP Optique). الدخول إجباري بالمعطف الأبيض، مع الالتزام بالبطاقة الطالب وتوقيت الحصص.",
+    "attachmentName": "قوائم_أفواج_أعمال_تطبيقية_فيزياء.pdf",
+    "sourceUrl": "https://fmsm.univ-ouargla.dz/ar/?option=com_content&view=category&id=87",
+    "isFromOfficialWebsite": true
+  }
+]
